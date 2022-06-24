@@ -9,7 +9,7 @@
 
 ### A sample “curl” command to call your API
 
-- curl -i -X POST localhost:8080/api/login -H "Content-Type: application/json" -d "{\"username\":\"hungnk\",\"password\":\"admin123\"}"
+- curl -i -X POST localhost:8080/api/login -H "Content-Type: application/json" -d ""{\"username\":\"hungnk\",\"password\":\"admin123\"}""
 - As soon as run this command it will generate Jwt Token
 - assign to "Authorization": "Bearer {#token}" to api createTask, createUser called after login;
   - Ex call api after login: 
